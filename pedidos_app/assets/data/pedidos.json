@@ -1,0 +1,31 @@
+[
+  {
+    "id": "ped-001",
+    "descripcion": "2 hamburguesas clasicas, 1 porcion de papas grandes, 2 gaseosas.",
+    "cliente": "Roberto Gonzalez",
+    "direccion": { "calle": "Carrera 19 #16-45", "barrio": "Centro", "ciudad": "Valledupar" },
+    "creadoEn": "2026-08-10T19:05:00Z",
+    "estado": { "tipo": "en_camino", "repartidor": "Carlos Mejia", "salidaEn": "2026-08-10T19:35:00Z" },
+    "productos": ["Hamburguesa clasica x2", "Papas grandes x1", "Gaseosa x2"],
+    "total": 45500.0
+  },
+  {
+    "id": "ped-002",
+    "descripcion": "1 pizza familiar de pepperoni con extra queso.",
+    "cliente": "Maria Lopez",
+    "direccion": { "calle": "Calle 30 #8-12", "barrio": "Villa Corelca", "ciudad": "Valledupar" },
+    "creadoEn": "2026-08-11T04:40:00Z",
+    "estado": { "tipo": "confirmado", "confirmadoEn": "2026-08-11T04:42:00Z" },
+    "total": 38000.0
+  },
+  {
+    "id": "ped-003",
+    "descripcion": "3 empanadas de carne, 1 jugo de lulo.",
+    "cliente": "Andres Perez",
+    "direccion": { "calle": "Avenida Simon Bolivar #22-10", "barrio": "Los Fundadores", "ciudad": "Valledupar" },
+    "creadoEn": "2026-08-09T13:20:00Z",
+    "estado": { "tipo": "cancelado", "motivo": "El cliente no se encontraba en la direccion de entrega." },
+    "productos": ["Empanada de carne x3", "Jugo de lulo x1"],
+    "total": 15000.0
+  }
+]
